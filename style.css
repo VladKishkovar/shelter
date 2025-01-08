@@ -6,18 +6,17 @@
 }
 @font-face {
 font-family: 'Arial';
-    src: url('fonts/Arial/arialmt.ttf') format('truetype');
+    src: url('/fronts/Arial/arialmt.ttf') format('truetype');
     font-weight:normal;
-    font-style: normal;
+    font-style: normal; 
 }
 
 body{
-width: 1280px;
-height: 908px;
+
 background-size: cover;
 JUSTIFY-CONTENT: CENTER;
 DISPLAY: FLEX;
-font-family: 'Arial', sans-serif;
+font-family: 'Arial', arialmt;
 font-size: 16px;
 line-height: 1.6;
 color: #cdcdcd;
@@ -26,9 +25,8 @@ background-image: url(../img/png/start-screen-gradient-background.png);
 }
 
 .header {
+    flex-direction: column;
     margin: 60px 40px 788px;
-    width: 1200px;
-    height: 60px;
     display: flex;
     justify-content: space-between;
     }
@@ -36,8 +34,15 @@ background-image: url(../img/png/start-screen-gradient-background.png);
         display: contents
     }
     .nav_list { 
+        justify-content: end;
         display: flex;
         gap: 35px;
+    }
+    .nav_list li {
+        
+    }
+    .head {
+       
     }
   
     .underline{ 
@@ -45,6 +50,7 @@ background-image: url(../img/png/start-screen-gradient-background.png);
 
    }
    .nav_list li a{
+    display: inline-block;
     color:#cdcdcd
    }
 
@@ -55,4 +61,31 @@ background-image: url(../img/png/start-screen-gradient-background.png);
     
     a{
         text-decoration: none;
+    }
+
+    .container {
+        height: 728px;
+        width: 1200px;
+        gap: 42px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+    }
+    .text h2 {
+        font-family: Georgia, serif; 
+        font-weight: 400; 
+        line-height: 57.2px;
+        font-size: 44px;
+        font-size: 2rem;
+        color: #FFFFFF;
+        margin-bottom: 42px; 
+        
+    }
+    
+    .dog-image img {
+        max-width: 100%;
+        height: auto;
+        width: 698px;
+        height: 728px;
+
     }
