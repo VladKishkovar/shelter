@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Giorgio';
+    src: url('fonts/Giorgio/Giorgio-Thin.ttf') format('truetype');
+    font-weight: 400; /* Лёгкий */
+    font-style: normal;
+}
+@font-face {
+font-family: 'Arial';
+    src: url('fonts/Arial/arialmt.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+}
+
+body{
+width: 1280px;
+height: 908px;
+background-size: cover;
+JUSTIFY-CONTENT: CENTER;
+DISPLAY: FLEX;
+font-family: 'Arial', sans-serif;
+font-size: 16px;
+line-height: 1.6;
+color: #cdcdcd;
+background-image: url(../img/png/start-screen-gradient-background.png);
+
+}
+
+.header {
+    margin: 60px 40px 788px;
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .head {
+        display: contents
+    }
+    .nav_list { 
+        display: flex;
+        gap: 35px;
+    }
+  
+    .underline{ 
+        border-bottom: solid 3px #F1CDB3;
+
+   }
+   .nav_list li a{
+    color:#cdcdcd
+   }
+
+    
+    li {
+        list-style-type: none
+    }
+    
+    a{
+        text-decoration: none;
+    }
