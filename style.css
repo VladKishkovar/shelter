@@ -87,8 +87,6 @@ background-image: url(../img/png/start-screen-gradient-background.png);
     }
     
     .dog-image img {
-        max-width: 100%;
-        height: auto;
         width: 698px;
         height: 728px;
     }
